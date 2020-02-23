@@ -1,0 +1,110 @@
+.hero{
+    height: 900px;
+    width: 100%;
+    background-image: url(images/header-bg.png);
+    background-position: center;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+.hero h1{
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+@media (min-width: 992px){
+    .hero h1{font-size: 45px;}
+}
+@media (min-width: 1200px){
+    .hero h1{font-size: 62px;}
+}
+.dream{
+    height: 900px;
+    width: 100%;
+    background-image: url(images/biography-bg.png);
+    background-position: center;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+.dream h1{
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+@media (min-width: 992px){
+    .dream h1{font-size: 45px;}
+}
+@media (min-width: 1200px){
+    .dream h1{font-size: 62px;}
+}
+.portfolio{
+   height: 700px;
+   width: 100%;
+   
+    background-image: url(images/latest-work-bg.png);
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack:center ;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+.portfolio h1{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+@media (min-width: 1200px){
+    .portfolio h1{font-size: 35px;}
+}
+
+@media (min-width:1200px){
+    .portfolio h1{font-size: 45px;}
+}
+
+.portfolio-img{
+
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 4px 55px rgba(192,192,192,0.15);
+    box-shadow: 0px 4px 64px rgba(0,0,0,0.15);
+}
+.portfolio-img img{
+    width: 100%;
+    overflow: hidden;
+    -webkoit-transition: .9s;
+    transition: .9s;
+}
+
+.portfolio-img:hover img{
+    -webkit-transform: rotate(5deg) scale(1.2);
+    transform: rotate(5deg) scale(1.2);
+}
